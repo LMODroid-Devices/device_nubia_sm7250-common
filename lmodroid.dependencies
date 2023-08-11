@@ -1,9 +1,11 @@
 [
   {
+    "remote": "lineage",
     "repository": "android_hardware_nubia",
     "target_path": "hardware/nubia"
   },
   {
+    "remote": "lineage",
     "repository": "android_kernel_nubia_sm7250",
     "target_path": "kernel/nubia/sm7250"
   }
