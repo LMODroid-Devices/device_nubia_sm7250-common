@@ -26,8 +26,6 @@ $(call inherit-product, vendor/nubia/sm7250-common/sm7250-common-vendor.mk)
 # Inherit display makefiles
 $(call inherit-product, hardware/qcom-caf/sm8250/display/config/display-board.mk)
 
--include $(LOCAL_PATH)/properties.mk
-
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
@@ -133,6 +131,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@2.0.vendor \
     vendor.qti.hardware.display.mapper@3.0.vendor \
     vendor.qti.hardware.display.mapper@4.0.vendor
+
+# Doze
+PRODUCT_PACKAGES += \
+    NubiaDoze
 
 # DRM
 PRODUCT_PACKAGES += \
