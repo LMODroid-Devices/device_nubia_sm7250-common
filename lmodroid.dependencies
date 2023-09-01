@@ -8,5 +8,10 @@
     "remote": "lineage",
     "repository": "android_kernel_nubia_sm7250",
     "target_path": "kernel/nubia/sm7250"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_hardware_samsung_nfc",
+    "target_path": "hardware/samsung/nfc"
   }
 ]
