@@ -45,10 +45,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
 
     <carrier_config>
         <boolean name="apn_expand_bool" value="true" />
-        <boolean name="world_phone_bool" value="true" />
+        <boolean name="world_phone_bool" value="false" />
         <boolean name="allow_adding_apns_bool" value="true" />
         <boolean name="hide_preferred_network_type_bool" value="false" />
-        <boolean name="show_cdma_choices_bool" value="true" />
+        <boolean name="show_cdma_choices_bool" value="false" />
         <boolean name="allow_video_call_in_low_battery" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="false" />
         <!-- Determines whether UI extensions for video calls should be used or not -->
@@ -108,6 +108,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_supports_multianchor_conference" value="false"/>
         <!-- Config for Call Composer Feature support  -->
         <boolean name="carrier_call_composer_supported_bool" value="false"/>
+        <boolean name="dtmf_type_enabled_bool" value="true" />
+        <boolean name="csp_enabled_bool" value="true" />
+
+        <!-- Enable 4G icon instead of LTE to save status bar space -->
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
     </carrier_config>
 
     <carrier_config mcc="001" mnc="01">
